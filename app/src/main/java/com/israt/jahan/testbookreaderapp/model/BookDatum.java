@@ -28,6 +28,8 @@ public class BookDatum implements Serializable {
     private Long mBookRatings;
     @SerializedName("book_type")
     private String mBookType;
+    @SerializedName("book_summary")
+    private String mBookSummary;
     @SerializedName("cover_path")
     private String mCoverPath;
     @SerializedName("publisher_name")
@@ -106,6 +108,17 @@ public class BookDatum implements Serializable {
     public void setBookType(String bookType) {
         mBookType = bookType;
     }
+
+
+    public String getBookSummary() {
+        return mBookSummary;
+    }
+
+    public void setBookSummary(String bookSummary) {
+        mBookSummary = bookSummary;
+    }
+
+
 
     public String getCoverPath() {
         return mCoverPath;

@@ -39,6 +39,7 @@ public class ShowBookActivity extends AppCompatActivity {
         setContentView(R.layout.activity_show_book);
 
 
+
         initilzationView();
 
     }
