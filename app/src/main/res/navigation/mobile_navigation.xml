@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.israt.jahan.testbookreaderapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_new_book"
+        android:name="com.israt.jahan.testbookreaderapp.ui.new_book.NewBookFragment"
+        android:label="@string/menu_new_book"
+        tools:layout="@layout/fragment_new_book" />
+
+    <fragment
+        android:id="@+id/nav_my_library"
+        android:name="com.israt.jahan.testbookreaderapp.ui.my_library.MyLibraryFragment"
+        android:label="@string/menu_my_library"
+        tools:layout="@layout/fragment_my_library" />
+
+    <fragment
+        android:id="@+id/nav_book_store"
+        android:name="com.israt.jahan.testbookreaderapp.ui.book_store.BookStoreFragment"
+        android:label="@string/menu_book_store"
+        tools:layout="@layout/fragment_book_store" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.israt.jahan.testbookreaderapp.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.israt.jahan.testbookreaderapp.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.israt.jahan.testbookreaderapp.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

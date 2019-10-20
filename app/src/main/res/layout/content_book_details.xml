@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/bookTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bookImage"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Sample title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/authorNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bookImage"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@id/bookTitleTV"
+        android:text="Sample title"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/bookTypeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bookImage"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@id/authorNameTV"
+        android:text="Sample Title"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookTypeTV"
+        android:gravity="center"
+        android:backgroundTint="#C7271B"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFF"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Read"/>
+
+    <TextView
+        android:id="@+id/summaryId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_below="@id/bookImage"
+        android:text="Summary :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/summaryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_below="@id/summaryId"
+        android:hint="Summary"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ratingTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_below="@id/summaryTV"
+        android:text="Rate :"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressTint="#C7271B"
+        android:layout_below="@id/ratingTV"
+        android:numStars="5"
+        android:stepSize="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
