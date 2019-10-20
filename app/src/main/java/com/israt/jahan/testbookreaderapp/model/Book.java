@@ -1,14 +1,16 @@
 
 package com.israt.jahan.testbookreaderapp.model;
 
+import androidx.room.Entity;
+
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 import java.util.List;
 
 
-@SuppressWarnings("unused")
-public class BookDatum implements Serializable {
+@Entity (tableName = "book")
+public class Book implements Serializable {
 
     @SerializedName("book_author")
     private String mBookAuthor;

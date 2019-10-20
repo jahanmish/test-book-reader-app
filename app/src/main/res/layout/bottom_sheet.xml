@@ -8,19 +8,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:padding="22dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/bottomSheetToolBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#D1CCCC"
-            android:layout_marginBottom="10dp"/>
-
-
-    </LinearLayout>
 
 
     <LinearLayout

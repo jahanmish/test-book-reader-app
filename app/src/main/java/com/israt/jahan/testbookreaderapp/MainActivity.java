@@ -23,7 +23,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.gson.Gson;
 import com.israt.jahan.testbookreaderapp.model.BookData;
-import com.israt.jahan.testbookreaderapp.model.BookDatum;
+import com.israt.jahan.testbookreaderapp.model.Book;
 import com.israt.jahan.testbookreaderapp.ui.adapter.RecyclerViewClickListener;
 import com.israt.jahan.testbookreaderapp.ui.bookDetails.BookDetailsActivity;
 import com.wshunli.assets.CopyAssets;
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -147,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
     }
 
     @Override
-    public void onClick(BookDatum bookItem) {
+    public void onClick(Book bookItem) {
 
         Intent intent = new Intent(this, BookDetailsActivity.class).putExtra("Data",bookItem);
         startActivity(intent);

@@ -10,17 +10,17 @@ import java.util.List;
 public class CategoryDatum {
 
     @SerializedName("book_data")
-    private List<BookDatum> mBookData;
+    private List<Book> mBookData;
     @SerializedName("category_id")
     private String mCategoryId;
     @SerializedName("category_name")
     private String mCategoryName;
 
-    public List<BookDatum> getBookData() {
+    public List<Book> getBookData() {
         return mBookData;
     }
 
-    public void setBookData(List<BookDatum> bookData) {
+    public void setBookData(List<Book> bookData) {
         mBookData = bookData;
     }
 

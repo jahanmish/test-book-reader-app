@@ -12,7 +12,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.israt.jahan.testbookreaderapp.ProjectHelper;
 import com.israt.jahan.testbookreaderapp.R;
-import com.israt.jahan.testbookreaderapp.model.BookDatum;
+import com.israt.jahan.testbookreaderapp.model.Book;
 
 
 public class BookDetailsActivity extends AppCompatActivity {
@@ -30,7 +30,9 @@ public class BookDetailsActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final BookDatum bookDatum = (BookDatum) getIntent().getSerializableExtra("Data");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        final Book book = (Book) getIntent().getSerializableExtra("Data");
 
          bookImage = findViewById(R.id.bookImage);
          bookTitleTV = findViewById(R.id.bookTitleTV);
@@ -41,17 +43,17 @@ public class BookDetailsActivity extends AppCompatActivity {
          ratingTV = findViewById(R.id.ratingTV);
          btnRead = findViewById(R.id.btnRead);
 
-         bookTitleTV.setText(bookDatum.getBookName());
-         authorNameTV.setText(bookDatum.getBookAuthor());
-         bookTypeTV.setText(bookDatum.getBookType());
-         summaryTV.setText(bookDatum.getBookSummary());
-         bookImage.setImageBitmap(ProjectHelper.getImage(getApplicationContext(), bookDatum.getCoverPath()));
+         bookTitleTV.setText(book.getBookName());
+         authorNameTV.setText(book.getBookAuthor());
+         bookTypeTV.setText(book.getBookType());
+         summaryTV.setText(book.getBookSummary());
+         bookImage.setImageBitmap(ProjectHelper.getImage(getApplicationContext(), book.getCoverPath()));
 
         btnRead.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(BookDetailsActivity.this, ShowBookActivity.class).putExtra("Data",bookDatum);
+                Intent i = new Intent(BookDetailsActivity.this, ShowBookActivity.class).putExtra("Data", book);
                 startActivity(i);
             }
         });

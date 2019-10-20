@@ -1,6 +1,7 @@
 package com.israt.jahan.testbookreaderapp.ui.bookDetails;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,6 +17,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatSeekBar;
 import androidx.appcompat.widget.AppCompatTextView;
+import androidx.appcompat.widget.Toolbar;
 
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
@@ -23,7 +25,7 @@ import com.github.barteksc.pdfviewer.listener.OnTapListener;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.israt.jahan.testbookreaderapp.ProjectHelper;
 import com.israt.jahan.testbookreaderapp.R;
-import com.israt.jahan.testbookreaderapp.model.BookDatum;
+import com.israt.jahan.testbookreaderapp.model.Book;
 
 public class ShowBookActivity extends AppCompatActivity {
 
@@ -32,24 +34,31 @@ public class ShowBookActivity extends AppCompatActivity {
     PDFView pdfView;
     AppCompatSeekBar page_seek_bar;
 
+    Toolbar showBookToolbar;
+    Book book;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_book);
 
-
+        showBookToolbar = findViewById(R.id.showBookToolbar);
+        setSupportActionBar(showBookToolbar);
 
         initilzationView();
+
+        hiddenToolbar();
 
     }
 
     private void initilzationView() {
-        BookDatum bookDatum = (BookDatum) getIntent().getSerializableExtra("Data");
+         book = (Book) getIntent().getSerializableExtra("Data");
 
         pdfView = findViewById(R.id.pdfView);
 
-        pdfView.fromFile(ProjectHelper.getPDFBook(this,bookDatum.getBookPath()))
+        pdfView.fromFile(ProjectHelper.getPDFBook(this, book.getBookPath()))
                 .swipeHorizontal(true)
                 .onPageChange(new OnPageChangeListener() {
                     @Override
@@ -68,13 +77,16 @@ public class ShowBookActivity extends AppCompatActivity {
                             case MotionEvent.ACTION_DOWN:
 
                                 //sheetBehavior.setState(BottomSheetBehavior.STATE_HIDDEN);
+
                                 handleBottonSheetClick();
+                                showToolbar();
                                 return true;
                             case MotionEvent.ACTION_UP:
 
                                // sheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
 
                                 Log.e(TAG," ACTION_UP");
+
                                 return true;
                         }
 
@@ -91,10 +103,21 @@ public class ShowBookActivity extends AppCompatActivity {
         BottomSheetDialog dialog = new BottomSheetDialog(ShowBookActivity.this);
         dialog.setContentView(dialogView);
 
+
+
+        dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+
+                hiddenToolbar();
+            }
+        });
+
+
+
         dialogView.findViewById(R.id.brightnessLinear).setVisibility(View.GONE);
         dialogView.findViewById(R.id.buttonModeLinear).setVisibility(View.GONE);
         dialogView.findViewById(R.id.pageLinear).setVisibility(View.GONE);
-
 
 
         ImageButton pageButton = dialogView.findViewById(R.id.pageButton);
@@ -184,10 +207,6 @@ public class ShowBookActivity extends AppCompatActivity {
                 });
 
 
-
-
-
-
             }
         });
 
@@ -219,13 +238,22 @@ public class ShowBookActivity extends AppCompatActivity {
             }
         });
 
-
-
         dialog.show();
-
 
     }
 
 
+    public void hiddenToolbar(){
+//        showBookToolbar.animate().translationY(-showBookToolbar.getBottom()).setInterpolator(new AccelerateInterpolator()).start();
+        getSupportActionBar().hide();
+
+    }
+
+    public void showToolbar(){
+//        showBookToolbar.animate().translationY(0).setInterpolator(new DecelerateInterpolator()).start();
+        getSupportActionBar().setTitle(book.getBookName());
+        getSupportActionBar().show();
+
+    }
 
 }

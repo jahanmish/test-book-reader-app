@@ -11,18 +11,18 @@ import android.widget.Toast;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.israt.jahan.testbookreaderapp.model.BookDatum;
+import com.israt.jahan.testbookreaderapp.model.Book;
 import com.israt.jahan.testbookreaderapp.ui.adapter.RecyclerViewClickListener;
 
 import java.util.ArrayList;
 
 public class SectionListDataAdapter extends RecyclerView.Adapter<SectionListDataAdapter.SingleItemRowHolder> {
 
-    private ArrayList<BookDatum> itemsList;
+    private ArrayList<Book> itemsList;
     private Context mContext;
     private RecyclerViewClickListener recyclerViewClickListener;
 
-    public SectionListDataAdapter(Context context, ArrayList<BookDatum> itemsList, RecyclerViewClickListener recyclerViewClickListener) {
+    public SectionListDataAdapter(Context context, ArrayList<Book> itemsList, RecyclerViewClickListener recyclerViewClickListener) {
         this.mContext = context;
         this.itemsList = itemsList;
         this.recyclerViewClickListener = recyclerViewClickListener;
