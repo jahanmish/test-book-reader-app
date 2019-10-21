@@ -1,105 +1,84 @@
 
 package com.israt.jahan.testbookreaderapp.model;
 
-import androidx.room.ColumnInfo;
-import androidx.room.Embedded;
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
-
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 import java.util.List;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
 
 @Entity(tableName = "book")
-public class Book  implements Serializable {
+public class Book implements Serializable {
 
 
     @PrimaryKey(autoGenerate = true)
-    private int id = 0;
+    public int id;
+
+    @ColumnInfo(name = "book_id")
+    @SerializedName("book_id")
+    int bookId;
 
 
     @ColumnInfo(name = "book_author")
     @SerializedName("book_author")
-    private String bookAuthor;
+    String bookAuthor;
 
-    @ColumnInfo (name = "book_category")
+    @ColumnInfo(name = "book_category")
     @SerializedName("book_category")
-    private String bookCategory;
+    String bookCategory;
 
-//    @ColumnInfo (name = "book_chapter")
-    @Expose
-    @Embedded
-    private List<BookChapter> bookChapter;
 
-    @ColumnInfo (name = "book_id")
-    @SerializedName("book_id")
-    private Long bookId;
+    @Ignore
+    List<BookChapter> bookChapter ;
 
-    @ColumnInfo (name = "book_language")
+
+    @ColumnInfo(name = "book_language")
     @SerializedName("book_language")
-    private String bookLanguage;
+    String bookLanguage;
 
-    @ColumnInfo (name = "book_name")
+    @ColumnInfo(name = "book_name")
     @SerializedName("book_name")
-    private String bookName;
+    String bookName;
 
-    @ColumnInfo (name = "book_path")
+    @ColumnInfo(name = "book_path")
     @SerializedName("book_path")
-    private String bookPath;
+    String bookPath;
 
-    @ColumnInfo (name = "book_ratings")
+    @ColumnInfo(name = "book_ratings")
     @SerializedName("book_ratings")
-    private Long bookRatings;
+    Long bookRatings;
 
-    @ColumnInfo (name = "book_summery")
+    @ColumnInfo(name = "book_summery")
     @SerializedName("book_summery")
-    private String bookSummery;
+    String bookSummery;
 
-    @ColumnInfo (name = "book_type")
+    @ColumnInfo(name = "book_type")
     @SerializedName("book_type")
-    private String bookType;
+    String bookType;
 
-    @ColumnInfo (name = "category_id")
+    @ColumnInfo(name = "category_id")
     @SerializedName("category_id")
-    private Long categoryId;
+    Long categoryId;
 
-    @ColumnInfo (name = "cover_path")
+    @ColumnInfo(name = "cover_path")
     @SerializedName("cover_path")
-    private String coverPath;
+    String coverPath;
 
-    @ColumnInfo (name = "publisher_name")
+    @ColumnInfo(name = "publisher_name")
     @SerializedName("publisher_name")
-    private String publisherName;
+    String publisherName;
 
-    @ColumnInfo (name = "total_pages")
+    @ColumnInfo(name = "total_pages")
     @SerializedName("total_pages")
-    private Long totalPages;
+    Long totalPages;
 
 
-
-
-    public Book(int id, String bookAuthor, String bookCategory, List<BookChapter> bookChapter, Long bookId, String bookLanguage, String bookName, String bookPath, Long bookRatings, String bookSummery, String bookType, Long categoryId, String coverPath, String publisherName, Long totalPages) {
+    public Book(int id) {
         this.id = id;
-        this.bookAuthor = bookAuthor;
-        this.bookCategory = bookCategory;
-        this.bookChapter = bookChapter;
-        this.bookId = bookId;
-        this.bookLanguage = bookLanguage;
-        this.bookName = bookName;
-        this.bookPath = bookPath;
-        this.bookRatings = bookRatings;
-        this.bookSummery = bookSummery;
-        this.bookType = bookType;
-        this.categoryId = categoryId;
-        this.coverPath = coverPath;
-        this.publisherName = publisherName;
-        this.totalPages = totalPages;
-    }
-
-    public Book() {
     }
 
 
@@ -109,6 +88,14 @@ public class Book  implements Serializable {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
     }
 
     public String getBookAuthor() {
@@ -125,22 +112,6 @@ public class Book  implements Serializable {
 
     public void setBookCategory(String bookCategory) {
         this.bookCategory = bookCategory;
-    }
-
-    public List<BookChapter> getBookChapter() {
-        return bookChapter;
-    }
-
-    public void setBookChapter(List<BookChapter> bookChapter) {
-        this.bookChapter = bookChapter;
-    }
-
-    public Long getBookId() {
-        return bookId;
-    }
-
-    public void setBookId(Long bookId) {
-        this.bookId = bookId;
     }
 
     public String getBookLanguage() {
@@ -222,4 +193,10 @@ public class Book  implements Serializable {
     public void setTotalPages(Long totalPages) {
         this.totalPages = totalPages;
     }
+
+    public Book() {
+    }
+
+
+
 }

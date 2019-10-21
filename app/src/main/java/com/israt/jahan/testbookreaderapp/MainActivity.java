@@ -9,6 +9,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.israt.jahan.testbookreaderapp.database.DatabaseClient;
+import com.israt.jahan.testbookreaderapp.model.Book;
+import com.israt.jahan.testbookreaderapp.model.BookChapter;
+import com.israt.jahan.testbookreaderapp.model.BookData;
+import com.israt.jahan.testbookreaderapp.ui.adapter.RecyclerViewClickListener;
+import com.israt.jahan.testbookreaderapp.ui.bookDetails.BookDetailsActivity;
+import com.wshunli.assets.CopyAssets;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,13 +29,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.gson.Gson;
-import com.israt.jahan.testbookreaderapp.model.Book;
-import com.israt.jahan.testbookreaderapp.model.BookData;
-import com.israt.jahan.testbookreaderapp.ui.adapter.RecyclerViewClickListener;
-import com.israt.jahan.testbookreaderapp.ui.bookDetails.BookDetailsActivity;
-import com.wshunli.assets.CopyAssets;
 
 public class MainActivity extends AppCompatActivity implements RecyclerViewClickListener {
 
@@ -42,6 +44,20 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+        BookChapter bookChapter = new BookChapter();
+        bookChapter.name  = "test";
+        bookChapter.bookId = 1;
+
+        Book book = new Book();
+        book.setBookName("test");
+
+
+        DatabaseClient.getInstance(getApplicationContext()).getMyDatabase().getBookDao().insert(book);
+        DatabaseClient.getInstance(getApplicationContext()).getMyDatabase().getBookDao().insert(bookChapter);
+
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
