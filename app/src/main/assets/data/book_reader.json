@@ -6,12 +6,13 @@
       "category_name": "Bangla",
       "category_data": [
         {
-          "category_id": "a",
           "category_name": "Bangla New",
+          "category_id": 1,
           "book_data": [
             {
               "book_id": 1,
               "book_name": "Bangla-1",
+              "category_id": 1,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -19,19 +20,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_1.pdf",
               "cover_path": "/data/cover/bangla/bangla_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -40,6 +44,7 @@
             {
               "book_id": 2,
               "book_name": "Bangla-2",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -47,19 +52,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_2.pdf",
               "cover_path": "/data/cover/bangla/bangla_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -68,6 +76,7 @@
             {
               "book_id": 3,
               "book_name": "Bangla-3",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -75,19 +84,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_3.pdf",
               "cover_path": "/data/cover/bangla/bangla_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -96,6 +108,7 @@
             {
               "book_id": 4,
               "book_name": "Bangla-4",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -103,19 +116,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_4.pdf",
               "cover_path": "/data/cover/bangla/bangla_4.jpg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -124,6 +140,7 @@
             {
               "book_id": 5,
               "book_name": "Bangla-5",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -131,19 +148,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_5.pdf",
               "cover_path": "/data/cover/bangla/bangla_5.jpg",
               "bookChapter": [
                 {
+                  "book_id": 5,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -152,6 +172,7 @@
             {
               "book_id": 6,
               "book_name": "Bangla-6",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -159,19 +180,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_6.pdf",
               "cover_path": "/data/cover/bangla/bangla_6.jpg",
               "bookChapter": [
                 {
+                  "book_id": 6,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -180,12 +204,13 @@
           ]
         },
         {
-          "category_id": "b",
+          "category_id": 2,
           "category_name": "Bangla Old",
           "book_data": [
             {
               "book_id": 1,
               "book_name": "Bangla-1",
+              "category_id": 2,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -193,19 +218,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_1.pdf",
               "cover_path": "/data/cover/bangla/bangla_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -214,6 +242,7 @@
             {
               "book_id": 2,
               "book_name": "Bangla-2",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -221,19 +250,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_2.pdf",
               "cover_path": "/data/cover/bangla/bangla_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -242,6 +274,7 @@
             {
               "book_id": 3,
               "book_name": "Bangla-3",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -249,19 +282,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_3.pdf",
               "cover_path": "/data/cover/bangla/bangla_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -270,6 +306,7 @@
             {
               "book_id": 4,
               "book_name": "Bangla-4",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -277,19 +314,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_4.pdf",
               "cover_path": "/data/cover/bangla/bangla_4.jpg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -298,6 +338,7 @@
             {
               "book_id": 5,
               "book_name": "Bangla-5",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -305,19 +346,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_5.pdf",
               "cover_path": "/data/cover/bangla/bangla_5.jpg",
               "bookChapter": [
                 {
+                  "book_id": 5,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -326,6 +370,7 @@
             {
               "book_id": 6,
               "book_name": "Bangla-6",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -333,19 +378,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_6.pdf",
               "cover_path": "/data/cover/bangla/bangla_6.jpg",
               "bookChapter": [
                 {
+                  "book_id": 6,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -354,12 +402,13 @@
           ]
         },
         {
-          "category_id": "c",
+          "category_id": 3,
           "category_name": "Bangla Popular",
           "book_data": [
             {
               "book_id": 1,
               "book_name": "Bangla-1",
+              "category_id": 3,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -367,19 +416,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_1.pdf",
               "cover_path": "/data/cover/bangla/bangla_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -388,6 +440,7 @@
             {
               "book_id": 2,
               "book_name": "Bangla-2",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -395,19 +448,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_2.pdf",
               "cover_path": "/data/cover/bangla/bangla_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -416,6 +472,7 @@
             {
               "book_id": 3,
               "book_name": "Bangla-3",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -423,19 +480,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_3.pdf",
               "cover_path": "/data/cover/bangla/bangla_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -444,6 +504,7 @@
             {
               "book_id": 4,
               "book_name": "Bangla-4",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -451,19 +512,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_4.pdf",
               "cover_path": "/data/cover/bangla/bangla_4.jpg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -472,6 +536,7 @@
             {
               "book_id": 5,
               "book_name": "Bangla-5",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -479,19 +544,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_5.pdf",
               "cover_path": "/data/cover/bangla/bangla_5.jpg",
               "bookChapter": [
                 {
+                  "book_id": 5,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 5,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -500,6 +568,7 @@
             {
               "book_id": 6,
               "book_name": "Bangla-6",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -507,19 +576,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/bangla/bangla_6.pdf",
               "cover_path": "/data/cover/bangla/bangla_6.jpg",
               "bookChapter": [
                 {
+                  "book_id": 6,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 6,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -534,12 +606,13 @@
       "category_name": "English",
       "category_data": [
         {
-          "category_id": "a",
+          "category_id": 1,
           "category_name": "English New",
           "book_data": [
             {
               "book_id": 1,
               "book_name": "English-1",
+              "category_id": 1,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -547,19 +620,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_1.pdf",
               "cover_path": "/data/cover/english/english_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -568,6 +644,7 @@
             {
               "book_id": 2,
               "book_name": "English-2",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -575,19 +652,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_2.pdf",
               "cover_path": "/data/cover/english/english_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -596,6 +676,7 @@
             {
               "book_id": 3,
               "book_name": "English-3",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -603,19 +684,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_3.pdf",
               "cover_path": "/data/cover/english/english_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -624,6 +708,7 @@
             {
               "book_id": 4,
               "book_name": "English-4",
+              "category_id": 1,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -631,19 +716,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_4.pdf",
               "cover_path": "/data/cover/english/english_4.jpeg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -652,12 +740,13 @@
           ]
         },
         {
-          "category_id": "b",
+          "category_id": 2,
           "category_name": "English Old",
           "book_data": [
             {
               "book_id": 1,
               "book_name": "English-1",
+              "category_id": 2,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -665,19 +754,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_1.pdf",
               "cover_path": "/data/cover/english/english_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -686,6 +778,7 @@
             {
               "book_id": 2,
               "book_name": "English-2",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -693,19 +786,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_2.pdf",
               "cover_path": "/data/cover/english/english_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -714,6 +810,7 @@
             {
               "book_id": 3,
               "book_name": "English-3",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -721,19 +818,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_3.pdf",
               "cover_path": "/data/cover/english/english_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -742,6 +842,7 @@
             {
               "book_id": 4,
               "book_name": "English-4",
+              "category_id": 2,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -749,19 +850,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_4.pdf",
               "cover_path": "/data/cover/english/english_4.jpeg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -770,12 +874,13 @@
           ]
         },
         {
-          "category_id": "c",
+          "category_id": 3,
           "category_name": "English Polpular",
           "book_data": [
             {
               "book_id": 1,
               "book_name": "English-1",
+              "category_id": 3,
               "total_pages": 217,
               "book_type": "Paid",
               "book_category": "Thriller",
@@ -783,19 +888,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summary" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summary": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_1.pdf",
               "cover_path": "/data/cover/english/english_1.jpg",
               "bookChapter": [
                 {
+                  "book_id": 1,
                   "chapterName": "Ucched",
                   "chapterPage": "5-49"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Thokbaji",
                   "chapterPage": "50-142"
                 },
                 {
+                  "book_id": 1,
                   "chapterName": "Dighir Dano",
                   "chapterPage": "143-216"
                 }
@@ -804,6 +912,7 @@
             {
               "book_id": 2,
               "book_name": "English-2",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -811,19 +920,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_2.pdf",
               "cover_path": "/data/cover/english/english_2.jpg",
               "bookChapter": [
                 {
+                  "book_id": 2,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 2,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -832,6 +944,7 @@
             {
               "book_id": 3,
               "book_name": "English-3",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -839,19 +952,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_3.pdf",
               "cover_path": "/data/cover/english/english_3.jpg",
               "bookChapter": [
                 {
+                  "book_id": 3,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 3,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }
@@ -860,6 +976,7 @@
             {
               "book_id": 4,
               "book_name": "English-4",
+              "category_id": 3,
               "total_pages": 218,
               "book_type": "Free",
               "book_category": "Thriller",
@@ -867,19 +984,22 @@
               "book_author": "Rokib Hasan",
               "book_language": "Bangla",
               "publisher_name": "Sheba Prokashoni",
-              "book_summery" : "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
+              "book_summery": "Tin Goyenda is a very popular teen detective series in Bangladesh published exclusively by Sheba Prokashoni. The story hinges round the suspenseful adventure of three young friends, Kishore Pasha, Musa Aman and Robin Milford, living in Rocky Beach, a small coastal town of California, USA. Together, they form a teenage detective team with a view to solve unsolvable mysteries. These juvenile detectives are courageous, nearly invincible and are capable of overcoming all challenges thrown their way.\n",
               "book_path": "/data/pdf/english/english_4.pdf",
               "cover_path": "/data/cover/english/english_4.jpeg",
               "bookChapter": [
                 {
+                  "book_id": 4,
                   "chapterName": "Harano Jahaj",
                   "chapterPage": "5-61"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Shapder Chokh",
                   "chapterPage": "62-139"
                 },
                 {
+                  "book_id": 4,
                   "chapterName": "Posha Dinosar",
                   "chapterPage": "140-216"
                 }

@@ -5,176 +5,185 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
 
-@Entity (tableName = "book")
-public class Book implements Serializable {
-
+@Entity(tableName = "book")
+public class BookDatum {
 
     @PrimaryKey(autoGenerate = true)
     private int id = 0;
 
-    @ColumnInfo (name = "book_author")
+
+    @ColumnInfo(name = "book_author")
     @SerializedName("book_author")
-    private String mBookAuthor;
+    private String bookAuthor;
 
     @ColumnInfo (name = "book_category")
     @SerializedName("book_category")
-    private String mBookCategory;
+    private String bookCategory;
 
-    @ColumnInfo(name = "book_chapter")
-    @SerializedName("bookChapter")
-    private List<BookChapter> mBookChapter;
+    @ColumnInfo (name = "book_chapter")
+    @Expose
+    private List<BookChapter> bookChapter;
 
     @ColumnInfo (name = "book_id")
     @SerializedName("book_id")
-    private Long mBookId;
+    private Long bookId;
 
     @ColumnInfo (name = "book_language")
     @SerializedName("book_language")
-    private String mBookLanguage;
+    private String bookLanguage;
 
     @ColumnInfo (name = "book_name")
     @SerializedName("book_name")
-    private String mBookName;
+    private String bookName;
 
     @ColumnInfo (name = "book_path")
     @SerializedName("book_path")
-    private String mBookPath=new String();
+    private String bookPath;
 
     @ColumnInfo (name = "book_ratings")
     @SerializedName("book_ratings")
-    private Long mBookRatings;
+    private Long bookRatings;
+
+    @ColumnInfo (name = "book_summery")
+    @SerializedName("book_summery")
+    private String bookSummery;
 
     @ColumnInfo (name = "book_type")
     @SerializedName("book_type")
-    private String mBookType;
+    private String bookType;
 
-    @ColumnInfo (name = "book_summary")
-    @SerializedName("book_summary")
-    private String mBookSummary;
+    @ColumnInfo (name = "category_id")
+    @SerializedName("category_id")
+    private Long categoryId;
 
     @ColumnInfo (name = "cover_path")
     @SerializedName("cover_path")
-    private String mCoverPath;
+    private String coverPath;
 
     @ColumnInfo (name = "publisher_name")
     @SerializedName("publisher_name")
-    private String mPublisherName;
+    private String publisherName;
 
     @ColumnInfo (name = "total_pages")
     @SerializedName("total_pages")
-    private Long mTotalPages;
+    private Long totalPages;
 
     public String getBookAuthor() {
-        return mBookAuthor;
+        return bookAuthor;
     }
 
     public void setBookAuthor(String bookAuthor) {
-        mBookAuthor = bookAuthor;
+        this.bookAuthor = bookAuthor;
     }
 
     public String getBookCategory() {
-        return mBookCategory;
+        return bookCategory;
     }
 
     public void setBookCategory(String bookCategory) {
-        mBookCategory = bookCategory;
+        this.bookCategory = bookCategory;
     }
 
     public List<BookChapter> getBookChapter() {
-        return mBookChapter;
+        return bookChapter;
     }
 
     public void setBookChapter(List<BookChapter> bookChapter) {
-        mBookChapter = bookChapter;
+        this.bookChapter = bookChapter;
     }
 
     public Long getBookId() {
-        return mBookId;
+        return bookId;
     }
 
     public void setBookId(Long bookId) {
-        mBookId = bookId;
+        this.bookId = bookId;
     }
 
     public String getBookLanguage() {
-        return mBookLanguage;
+        return bookLanguage;
     }
 
     public void setBookLanguage(String bookLanguage) {
-        mBookLanguage = bookLanguage;
+        this.bookLanguage = bookLanguage;
     }
 
     public String getBookName() {
-        return mBookName;
+        return bookName;
     }
 
     public void setBookName(String bookName) {
-        mBookName = bookName;
+        this.bookName = bookName;
     }
 
     public String getBookPath() {
-        return mBookPath;
+        return bookPath;
     }
 
     public void setBookPath(String bookPath) {
-        mBookPath = bookPath;
+        this.bookPath = bookPath;
     }
 
     public Long getBookRatings() {
-        return mBookRatings;
+        return bookRatings;
     }
 
     public void setBookRatings(Long bookRatings) {
-        mBookRatings = bookRatings;
+        this.bookRatings = bookRatings;
+    }
+
+    public String getBookSummery() {
+        return bookSummery;
+    }
+
+    public void setBookSummery(String bookSummery) {
+        this.bookSummery = bookSummery;
     }
 
     public String getBookType() {
-        return mBookType;
+        return bookType;
     }
 
     public void setBookType(String bookType) {
-        mBookType = bookType;
+        this.bookType = bookType;
     }
 
-
-    public String getBookSummary() {
-        return mBookSummary;
+    public Long getCategoryId() {
+        return categoryId;
     }
 
-    public void setBookSummary(String bookSummary) {
-        mBookSummary = bookSummary;
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
     }
-
-
 
     public String getCoverPath() {
-        return mCoverPath;
+        return coverPath;
     }
 
     public void setCoverPath(String coverPath) {
-        mCoverPath = coverPath;
+        this.coverPath = coverPath;
     }
 
     public String getPublisherName() {
-        return mPublisherName;
+        return publisherName;
     }
 
     public void setPublisherName(String publisherName) {
-        mPublisherName = publisherName;
+        this.publisherName = publisherName;
     }
 
     public Long getTotalPages() {
-        return mTotalPages;
+        return totalPages;
     }
 
     public void setTotalPages(Long totalPages) {
-        mTotalPages = totalPages;
+        this.totalPages = totalPages;
     }
 
     public int getId() {
@@ -184,4 +193,5 @@ public class Book implements Serializable {
     public void setId(int id) {
         this.id = id;
     }
+
 }

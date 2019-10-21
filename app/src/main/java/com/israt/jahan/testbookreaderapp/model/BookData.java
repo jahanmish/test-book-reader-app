@@ -10,24 +10,24 @@ import java.util.List;
 public class BookData {
 
     @SerializedName("database_version")
-    private Long mDatabaseVersion;
+    private Long databaseVersion;
     @SerializedName("db_data")
-    private List<Category> mDbData;
+    private List<DbDatum> dbData;
 
     public Long getDatabaseVersion() {
-        return mDatabaseVersion;
+        return databaseVersion;
     }
 
     public void setDatabaseVersion(Long databaseVersion) {
-        mDatabaseVersion = databaseVersion;
+        this.databaseVersion = databaseVersion;
     }
 
-    public List<Category> getDbData() {
-        return mDbData;
+    public List<DbDatum> getDbData() {
+        return dbData;
     }
 
-    public void setDbData(List<Category> dbData) {
-        mDbData = dbData;
+    public void setDbData(List<DbDatum> dbData) {
+        this.dbData = dbData;
     }
 
 }

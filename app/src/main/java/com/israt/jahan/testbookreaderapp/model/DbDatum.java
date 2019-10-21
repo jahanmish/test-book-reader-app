@@ -5,23 +5,22 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-
 @SuppressWarnings("unused")
-public class CategoryDatum {
+public class DbDatum {
 
-    @SerializedName("book_data")
-    private List<BookDatum> bookData;
+    @SerializedName("category_data")
+    private List<CategoryDatum> categoryData;
     @SerializedName("category_id")
     private Long categoryId;
     @SerializedName("category_name")
     private String categoryName;
 
-    public List<BookDatum> getBookData() {
-        return bookData;
+    public List<CategoryDatum> getCategoryData() {
+        return categoryData;
     }
 
-    public void setBookData(List<BookDatum> bookData) {
-        this.bookData = bookData;
+    public void setCategoryData(List<CategoryDatum> categoryData) {
+        this.categoryData = categoryData;
     }
 
     public Long getCategoryId() {

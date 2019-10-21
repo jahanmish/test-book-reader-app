@@ -1,34 +1,62 @@
 
 package com.israt.jahan.testbookreaderapp.model;
 
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 
+@Entity(tableName = "bookChapter")
+public class BookChapter {
 
-@SuppressWarnings("unused")
-public class BookChapter implements Serializable {
+    @PrimaryKey(autoGenerate = true)
+    private int id = 0;
 
-    @SerializedName("chapterName")
-    private String mChapterName;
-    @SerializedName("chapterPage")
-    private String mChapterPage;
+    @ColumnInfo(name = "book_id")
+    @SerializedName("book_id")
+    private Long bookId;
+
+    @ColumnInfo(name = "chapterName")
+    @Expose
+    private String chapterName;
+
+    @Expose
+    @ColumnInfo(name = "chapterPage")
+    private String chapterPage;
+
+    public Long getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(Long bookId) {
+        this.bookId = bookId;
+    }
 
     public String getChapterName() {
-        return mChapterName;
+        return chapterName;
     }
 
     public void setChapterName(String chapterName) {
-        mChapterName = chapterName;
+        this.chapterName = chapterName;
     }
 
     public String getChapterPage() {
-        return mChapterPage;
+        return chapterPage;
     }
 
     public void setChapterPage(String chapterPage) {
-        mChapterPage = chapterPage;
+        this.chapterPage = chapterPage;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
 }
