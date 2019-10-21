@@ -12,7 +12,8 @@ public class DatabaseClient {
 
     private DatabaseClient(Context context){
         this.context=context;
-        myDatabase= Room.databaseBuilder(context,MyDatabase.class,"BookReader").build();
+        myDatabase= Room.databaseBuilder(context,MyDatabase.class,"BookReader")
+                .allowMainThreadQueries().build();
     }
 
     public static DatabaseClient getInstance(Context context){
