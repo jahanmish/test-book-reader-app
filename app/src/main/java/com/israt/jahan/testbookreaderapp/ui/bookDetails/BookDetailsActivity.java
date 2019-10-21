@@ -46,7 +46,7 @@ public class BookDetailsActivity extends AppCompatActivity {
          bookTitleTV.setText(book.getBookName());
          authorNameTV.setText(book.getBookAuthor());
          bookTypeTV.setText(book.getBookType());
-         summaryTV.setText(book.getBookSummary());
+         summaryTV.setText(book.getBookSummery());
          bookImage.setImageBitmap(ProjectHelper.getImage(getApplicationContext(), book.getCoverPath()));
 
         btnRead.setOnClickListener(new View.OnClickListener() {

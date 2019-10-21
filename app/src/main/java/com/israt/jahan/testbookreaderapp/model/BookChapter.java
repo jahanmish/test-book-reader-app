@@ -3,14 +3,20 @@ package com.israt.jahan.testbookreaderapp.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
-@Entity(tableName = "bookChapter")
+@Entity(tableName = "bookChapter",foreignKeys = @ForeignKey(entity = Book.class,
+        parentColumns = "id",
+        childColumns = "book_id"))
 public class BookChapter {
+
+
+
 
     @PrimaryKey(autoGenerate = true)
     private int id = 0;
@@ -26,6 +32,14 @@ public class BookChapter {
     @Expose
     @ColumnInfo(name = "chapterPage")
     private String chapterPage;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public Long getBookId() {
         return bookId;
@@ -51,12 +65,13 @@ public class BookChapter {
         this.chapterPage = chapterPage;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
+    public BookChapter(int id, Long bookId, String chapterName, String chapterPage) {
         this.id = id;
+        this.bookId = bookId;
+        this.chapterName = chapterName;
+        this.chapterPage = chapterPage;
     }
 
+    public BookChapter() {
+    }
 }
